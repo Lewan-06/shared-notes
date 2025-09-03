@@ -1,5 +1,8 @@
-#everything is allowed except this folder.
+# Ignore everything
 *
-**/Y2/
-**/Y2/Q1/
-**/Y2/Q1/**
+
+# Allow all directories so Git can traverse folder structure
+!*/
+
+# Allow all files/folders inside Y2/Q1
+!Documents/Obsidian Vault/Y2/Q1/**

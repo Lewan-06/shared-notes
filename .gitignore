@@ -1,14 +1,11 @@
 # Ignore everything
 *
 
-# Allow Documents folder
+# Unignore Documents folder
 !Documents/
-
-# Allow Obsidian Vault folder inside Documents
-!Documents/Obsidian Vault/
-
-# Allow Y2 folder inside Obsidian Vault
-!Documents/Obsidian Vault/Y2/
-
-# Finally allow all files inside Q1
-!Documents/Obsidian Vault/Y2/Q1/**
+# Unignore Obsidian Vault inside Documents - quote or escape space if needed
+!Documents/Obsidian\ Vault/
+# Unignore Y2 folder inside Obsidian Vault
+!Documents/Obsidian\ Vault/Y2/
+# Unignore Q1 folder and all contents inside Y2
+!Documents/Obsidian\ Vault/Y2/Q1/**

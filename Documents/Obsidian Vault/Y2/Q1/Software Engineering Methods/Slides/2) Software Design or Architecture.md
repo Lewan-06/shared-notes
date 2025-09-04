@@ -84,10 +84,3 @@
 | Builder          | 1) Construct complex objects step by step. <br>2) Different types of representations of objects with same construction code                  | 1) Algorithm for creating complex object independent of parts that make object. <br>2) Construction must allow different representations of object being constructed                                                                                                             | 1) Step by step.<br>2) Reuse same construction for various representations of products. <br>3) SRP: isolate complex construction from business logic                                                                                                   | 1) Complexity increases since builder requires new classes                                                                                                                  |
 | Singleton        | 1) Class only has one instance. <br>2) Global access to that class, but no class can modify directly                                         | 1) Static is not possible (static can't use interfaces or inherit). <br>2) Must only be one instance of a class                                                                                                                                                                  | 1) Single instance. <br>2) Globally accessible. <br>3) Single instantiation.                                                                                                                                                                           | 1) Can mask bad design. <br>2) Special treatment for multithreaded environment. <br>3) Difficult to test clients of singletons. <br>4) Cannot create subclass of singletons |
 ##### UML | <mark style="background: #009FFD;">multiple exam Q</mark>
-#UML 
-*** 
-### Todo
-- [ ] Clear UML manual and make sure everything required to know is in there
-- [x] Rewriting architectural patterns to be clearer
-- [x] Revisit the slides
-- [x] Bullet points in tables should have line breaks: shift + enter

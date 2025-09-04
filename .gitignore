@@ -1,5 +1,14 @@
 # Ignore everything
 *
 
-# Allow all files/folders inside Y2/Q1
+# Allow Documents folder
+!Documents/
+
+# Allow Obsidian Vault folder inside Documents
+!Documents/Obsidian Vault/
+
+# Allow Y2 folder inside Obsidian Vault
+!Documents/Obsidian Vault/Y2/
+
+# Finally allow all files inside Q1
 !Documents/Obsidian Vault/Y2/Q1/**

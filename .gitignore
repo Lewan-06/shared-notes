@@ -1,11 +1,5 @@
-# Ignore everything
 *
-
-# Unignore Documents folder
 !Documents/
-# Unignore Obsidian Vault inside Documents - quote or escape space if needed
-!Documents/Obsidian\ Vault/
-# Unignore Y2 folder inside Obsidian Vault
-!Documents/Obsidian\ Vault/Y2/
-# Unignore Q1 folder and all contents inside Y2
-!Documents/Obsidian\ Vault/Y2/Q1/**
+!Documents/Obsidian Vault/
+!Documents/Obsidian Vault/Y2/
+!Documents/Obsidian Vault/Y2/**

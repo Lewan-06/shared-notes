@@ -35,6 +35,8 @@
 ##### Clustering
 - Grouping of inputs based on patterns to help predict the output of new input by assigning it a cluster (group)
 ***
+### General approach for the (classification) model
+- For each object in the feature space, we should estimate the probability of it falling under a certain label given the feature vector - p(y | **x**) (posterior probability)
 ### Alternatives to feature vector
 - Alternatives are still being researched
 #### Dissimilarity approach
@@ -55,6 +57,10 @@
 	- Yellow area is the error region
 		- Calculated by: ![[Screenshot 2025-05-17 162437.png]]
 			- What should be classified as class 1 that falls in R2 and the other way around
+ #### Classification error
+- The error is calculates as P(error) = SUM(P(error | y i) * P(y i))
+- Bayes error = minimum attainable error
+- In practice, the Bayes error cannot be calculated usually
 #### Misclassification costs
 - Total empirical risk: 
 	![[Screenshot 2025-05-17 162800.png]]

@@ -52,7 +52,6 @@
 ![[Screenshot 2025-07-05 132755.png]]
 ![[Screenshot 2025-07-05 132905.png]]
 - Thisway we can get hyperbolic boundaries/circular
-- W is difference in covariance matrices
 ###### Estimating covariance matrix
 ![[Screenshot 2025-07-05 133108.png]]
 - Estimate for each class
@@ -71,11 +70,11 @@
 ![[Screenshot 2025-07-05 142326.png]]
 - Important when data set contains different units
 
-|                      | Advantages                                                                                                                      | Disdadvantages                                                                                                                                                                |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Quadratic classifier | 1) Complex non-linear relationships<br>2) Class specific variance: each class has its own covariance matrix<br>3) High accuracy | 1) More data required<br>2) Overfitting<br>3) Computationally expensive: more parameters to estimate<br>4) Assumes normality/Gaussian                                         |
-| LDA                  | 1) Simple and fast<br>2) Good for limited data<br>3) When classes have similar variances                                        | 1) Assumption that covariance for all classes are equal<br>2) Can't model nonlinear boundaries<br>3) Assumes normality/Gaussian<br>4) Struggles with high dimensionality data |
-| Nearest mean         | 1) Easiest<br>2) Fastest<br>3) Few parameters: low risk of overfitting                                                          | 1) Can't model nonlinear boundaries<br>2) Assumption that covariance for all classes are equal<br>3) Less accurate for classes differing in shape<br>4) Sensitive to outliers |
+|                       | Advantages                                                                                                                      | Disdadvantages                                                                                                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Quadratic classifier  | 1) Complex non-linear relationships<br>2) Class specific variance: each class has its own covariance matrix<br>3) High accuracy | 1) More data required<br>2) Overfitting<br>3) Computationally expensive: more parameters to estimate<br>4) Assumes normality/Gaussian                                         |
+| LDA                   | 1) Simple and fast<br>2) Good for limited data<br>3) When classes have similar variances                                        | 1) Assumption that covariance for all classes are equal<br>2) Can't model nonlinear boundaries<br>3) Assumes normality/Gaussian<br>4) Struggles with high dimensionality data |
+| Nearest mean          | 1) Easiest<br>2) Fastest<br>3) Few parameters: low risk of overfitting                                                          | 1) Can't model nonlinear boundaries<br>2) Assumption that covariance for all classes are equal<br>3) Less accurate for classes differing in shape<br>4) Sensitive to outliers |
 
 ## Overview classifiers 
 ![[Screenshot 2025-07-06 110028.png]]

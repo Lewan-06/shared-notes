@@ -141,6 +141,7 @@
 ##### Bounded context | <mark style="background: #009FFD;">multiple exam Q</mark>
 - Boundary between particular domain models
 - Why: manages complexity by separating domain into smaller parts
+![[Pasted image 20250909225216.png]]
 ###### Relationships
 - Shared kernel: some common concepts
 - Customer/supplier: one depends on other
